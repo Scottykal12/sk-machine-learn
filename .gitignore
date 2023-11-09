@@ -1,0 +1,10 @@
+/skm-learn/target
+/skm-learn/model.json
+/skm-learn/training_data.csv
+/skm-predict/target
+/skm-predict/model.json
+/skm-predict/predict_data.csv
+/release
+
+
+

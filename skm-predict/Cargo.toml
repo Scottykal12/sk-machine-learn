@@ -1,0 +1,15 @@
+[package]
+name = "skm-predict"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.3.0"
+linfa-svm = { version = "0.7.0", features = ["serde"]}
+linfa = { version = "0.7.0", features = ["serde"] }
+rust-ini = "0.20.0"
+rustlearn = "0.5.0"
+serde_json = "1.0.107"
+linfa-datasets = "0.7.0"
